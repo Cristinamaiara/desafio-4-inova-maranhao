@@ -1,0 +1,46 @@
+.benefícios h2{
+    text-align: center;
+    font-size: 40px;
+}
+.cards{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.benefícios .card-item{
+    color: white;
+    float: left;
+    background-color: #1B4F5F;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 250px;
+    transition: 0.3s;
+
+}
+.benefícios .card-item img{
+ border-radius: 100%;
+ width: 80px;
+ display: block;  
+ margin: 10px auto 
+}
+.benefícios .card-item .nome-user{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+
+}
+.benefícios .card-item .benefícios-user{
+    font-size: 15px;
+    padding: 0 15px;
+}
+.benefícios .card-item:hover{
+background-color: #020914;
+margin-top:-5px;
+}
+.benefícios .card-item:hover .nome-user{
+color:rgb(218, 197, 37);
+}
+.benefícios .card-item:hover .benefícios-user{
+    color: white;
+}
